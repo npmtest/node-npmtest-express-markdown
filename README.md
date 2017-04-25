@@ -1,6 +1,6 @@
 # npmtest-express-markdown
 
-#### basic test coverage for  express-markdown (v0.0.6)  [![npm package](https://img.shields.io/npm/v/npmtest-express-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-markdown.svg)](https://travis-ci.org/npmtest/node-npmtest-express-markdown)
+#### basic test coverage for  [express-markdown (v0.0.6)](https://github.com/JamesHight/express-markdown#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-markdown.svg)](https://travis-ci.org/npmtest/node-npmtest-express-markdown)
 
 #### Express middleware for rendering markdown files
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-markdown/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-markdown/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-markdown/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-markdown/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-markdown/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-markdown/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-markdown/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-markdown/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-markdown/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-markdown/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-markdown/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-markdown/build/coverage.html/index.html)
 
@@ -35,39 +35,49 @@
 ```json
 
 {
-    "name": "express-markdown",
-    "description": "Express middleware for rendering markdown files",
-    "version": "0.0.6",
     "author": {
         "name": "James Hight"
     },
-    "maintainers": [
-        {
-            "name": "jmerrick"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/JamesHight/express-markdown"
+    "bugs": {
+        "url": "https://github.com/JamesHight/express-markdown/issues"
     },
+    "dependencies": {
+        "marked": "*"
+    },
+    "description": "Express middleware for rendering markdown files",
+    "devDependencies": {},
     "directories": {
         "lib": "./lib"
     },
-    "main": "./lib/markdown",
+    "dist": {
+        "shasum": "e9b93156df32dd4f198a0a8a2ecdec924b2dc758",
+        "tarball": "https://registry.npmjs.org/express-markdown/-/express-markdown-0.0.6.tgz"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "homepage": "https://github.com/JamesHight/express-markdown#readme",
     "licenses": [
         {
             "type": "Apache 2.0",
             "url": "https://github.com/JamesHight/express-markdown/blob/master/LICENSE"
         }
     ],
-    "dependencies": {
-        "marked": "*"
-    },
-    "devDependencies": {},
+    "main": "./lib/markdown",
+    "maintainers": [
+        {
+            "name": "jmerrick"
+        }
+    ],
+    "name": "express-markdown",
     "optionalDependencies": {},
-    "engines": {
-        "node": "*"
-    }
+    "readmeFilename": "README.md",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JamesHight/express-markdown.git"
+    },
+    "version": "0.0.6",
+    "bin": {}
 }
 ```
 
